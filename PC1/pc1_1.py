@@ -69,11 +69,11 @@ def binary_search(cursos: List[Dict], hora: str) -> Optional[Dict]:
 # --------------------------
 if __name__ == "__main__":
     cursos = [
-        {"codigo": "MAT101", "nombre": "Matemáticas I", "hora_inicio": "08:00"},
-        {"codigo": "FIS202", "nombre": "Física II", "hora_inicio": "10:30"},
-        {"codigo": "PROG305", "nombre": "Programación Avanzada", "hora_inicio": "09:15"},
-        {"codigo": "HIST110", "nombre": "Historia Universal", "hora_inicio": "07:45"},
-        {"codigo": "QUIM150", "nombre": "Química General", "hora_inicio": "14:00"}
+        {"codigo": "MiT101", "nombre": "Microeconomia", "hora_inicio": "10:15"},
+        {"codigo": "FIS202", "nombre": "Física II", "hora_inicio": "18:00"},
+        {"codigo": "AlGG305", "nombre": "Algoritmo2 ", "hora_inicio": "09:45"},
+        {"codigo": "TIST110", "nombre": "Tecnologia Informacion", "hora_inicio": "08:45"}
+        
     ]
 
     print("=== Lista de cursos (desordenada) ===")
@@ -96,3 +96,4 @@ if __name__ == "__main__":
         print(curso_encontrado)
     else:
         print("\nNo existe un curso a esa hora.")
+
